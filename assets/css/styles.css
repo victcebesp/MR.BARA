@@ -1,0 +1,223 @@
+@charset "UTF-8";
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    height: 1010px;
+    background-image: url(../img/heroImage.jpg);
+    background-size: cover;
+}
+
+h1 {
+    margin: 0;
+    padding-top: 120px;
+}
+
+.red-dash {
+    background-color: #990000;
+    width: 47px;
+    height: 4px;
+}
+
+.black-dash {
+    background-color: #000000;
+    width: 103%;
+    height: 1px;
+}
+
+#about .black-dash {
+    margin-top: 135px;
+}
+
+#about p {
+    margin-bottom: 70px;
+    margin-top: 30px;
+}
+
+.white-dash {
+    background-color: #ffffff;
+    width: 100%;
+    height: 1px;
+}
+
+.red-background {
+    background-color: #660000;
+    margin-top: -100px;
+    padding-top: 185px;
+}
+
+.red-background h2,
+.red-background h3 {
+    color: #ffffff;
+}
+
+.red-background .white-dash {
+
+}
+
+.red-background p {
+    color: #999999;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.grey-background {
+    background-color: #f5f5f5;
+}
+
+#reasons-row {
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+
+span {
+    color: #990000;
+    font-weight: 400;
+}
+
+#popular-products-row {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#popular-products-row .black-dash {
+    margin-top: 34px;
+}
+
+#popular-products-row p {
+    padding-top: 26px;
+}
+
+.grey-background .row {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.grey-background .black-dash {
+    margin-top: 26px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+nav li {
+    display: inline-block;
+    box-sizing: border-box;
+    margin-right: 52px;
+}
+
+nav li a {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 14px;
+}
+
+.ion-star {
+    color: #ffcc00;
+}
+
+.center-text {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+nav {
+    background-color: transparent;
+    padding-top: 75px;
+    position: relative;
+}
+
+.test-red-background {
+    background-color: red;
+    height: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+footer {
+    height: 329px;
+    background-color: #2d2d2d;
+    padding-top: 113px;
+    color: #999999;
+    position: relative;
+}
+
+footer li a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    line-height: 24px;
+    text-align: left;
+    color: #999999;
+}
+
+.logo {
+    position: absolute;
+}
+
+.nav-logo {
+    top: 50px;
+    left: 80px;
+}
+
+.footer-logo {
+    left: 80px;
+    bottom: 160px;
+}
+
+#login {
+    position: absolute;
+    top: 75px;
+    right: 80px;
+}
+
+#social {
+    position: absolute;
+    bottom: 160px;
+    right: 80px;
+}
+
+@media screen and (max-width: 1495px) {
+    .logo {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1159px) {
+    #login {
+        display: none;
+    }
+}
+
+.unpadding {
+    padding: 0;
+}
+
+.vertical-line {
+    width: 2px;
+    height: 12px;
+    background-color: #999999;
+}
+
+#social > ul {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#social li {
+    margin-right: 10px;
+}
