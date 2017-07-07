@@ -16,6 +16,11 @@ h1 {
     padding-top: 120px;
 }
 
+h3 {
+    font-size: 14px;
+    font-weight: 900;
+}
+
 .red-dash {
     background-color: #990000;
     width: 47px;
@@ -216,4 +221,123 @@ footer li a {
 
 #social li {
     margin-right: 10px;
+}
+
+#categories-nav {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    border: 1px #eaeaea solid;
+}
+
+#categories-nav li, #categories-nav a {
+    color: black;
+}
+
+.filter h2 {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.nav-logo {
+    top: 21px;
+}
+
+#login {
+    top: 35px;
+}
+
+.round-btn-filter {
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    background-color: #f1f1f1;
+    text-align: center;
+    padding-top: 10px;
+    opacity: 0.2;
+}
+
+.round-btn-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+}
+
+.pink {
+    background-color: #990000;
+}
+
+.wrap {
+    flex-flow: wrap;
+}
+
+.orange {
+    background-color: #C96800;
+}
+
+.light-orange {
+    background-color: #CC9900;
+}
+
+.yellow {
+    background-color: #CCCC00;
+}
+
+.green {
+    background-color: #99CC66;
+}
+
+.blue {
+    background-color: #337AB0;
+}
+
+.light-purple {
+    background-color: #7D5ABC;
+}
+
+.purple {
+    background-color: #D371DC;
+}
+
+.round-btn-filter.active {
+    opacity: 1;
+}
+
+.round-btn-filter.active i {
+    display: inline;
+}
+
+.round-btn-filter i {
+    display: none;
+    color: white;
+}
+
+.no-opacity {
+    opacity: 1;
+}
+
+
+.filter p {
+    color: #999999;
+}
+.subcategory {
+    float: left;
+}
+
+.quantity {
+    float: right;
+}
+
+.flex-horizontal {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-vertical {
+    display: flex;
+    flex-direction: column;
+}
+
+.filter li {
+    clear: both;
 }

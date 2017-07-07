@@ -12,11 +12,10 @@
     <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="stylesheet" href="assets/css/categories.css">
 </head>
 
 <body>
-    <nav class="grey-thin-border">
+    <nav id="categories-nav">
         <img class="logo nav-logo" src="assets/img/black-Logo.png" alt="MR.BARA logo">
         <div class="container unpadding">
             <div class="row">
@@ -43,16 +42,20 @@
 
     <section>
         <div class="container unpadding">
-            <div class="row">
+            <div class="row filter">
                 <div class="col-lg-3">
-                    <h2>Cateories</h2>
+                    <h2>Categories</h2>
                     <h3>MEN</h3>
+                    <ul>
+                        <li><a href="#"><span class="subcategory">New products</span><span class="quantity">104</span></a></li>
+                        <li><a href="#"><span class="subcategory">Gymwear</span><span class="quantity">68</span></a></li>
+                    </ul>
                     <div class="row">
                         <div class="col-lg-8">
                             <p>New products</p>
                         </div>
                         <div class="col-log-4">
-                            104
+                            <p>104</p>
                         </div>
                     </div>
                     <div class="row">
@@ -60,7 +63,7 @@
                             <p>Gymwear</p>
                         </div>
                         <div class="col-log-4">
-                            68
+                            <p>68</p>
                         </div>
                     </div>
                     <h3>WOMEN</h3>
@@ -69,7 +72,7 @@
                             <p>Jackets</p>
                         </div>
                         <div class="col-log-4">
-                            75
+                            <p>75</p>
                         </div>
                     </div>
                     <div class="row">
@@ -77,7 +80,7 @@
                             <p>Shirts</p>
                         </div>
                         <div class="col-log-4">
-                            150
+                            <p>150</p>
                         </div>
                     </div>
                     <div class="row">
@@ -85,7 +88,7 @@
                             <p>Accesories</p>
                         </div>
                         <div class="col-log-4">
-                            
+
                         </div>
                     </div>
                     <h3>FOOTWEAR</h3>
@@ -111,7 +114,167 @@
                         <div class="round-btn-filter purple"><i class="ion-checkmark"></i></div>
                     </div>
                     <h3>BRANDS</h3>
+                    <div class="row">
+                        <div class="col-lg-8">
+                            <p>The North Face</p>
+                        </div>
+                        <div class="col-log-4">
+                            <p>24</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-8">
+                            <p>Zara Basic</p>
+                        </div>
+                        <div class="col-log-4">
+                            <p>68</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-8">
+                            <p>Maschino</p>
+                        </div>
+                        <div class="col-log-4">
+                            <p>35</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-8">
+                            <p>Supreme</p>
+                        </div>
+                        <div class="col-log-4">
+                            <p>15</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-8">
+                            <p>Ecko Unitd</p>
+                        </div>
+                        <div class="col-log-4">
+                            <p>68</p>
+                        </div>
+                    </div>
                     <h2>Recent Product</h2>
+                    <div class="flex-horizontal">
+                        <img src="https://dummyimage.com/77x101/eaeaea/4d4d4d" alt="dummy">
+                        <div class="flex-vertical">
+                            <p>Barbour T-shirt International</p>
+                            <p>$32.00</p>
+                        </div>
+                    </div>
+                    <div class="flex-horizontal">
+                        <img src="https://dummyimage.com/77x101/eaeaea/4d4d4d" alt="dummy">
+                        <div class="flex-vertical">
+                            <p>Nike Drawstring</p>
+                            <p>$15.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <p>HOME > <span>Shop Categories</span></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <img src="https://dummyimage.com/870x258/eaeaea/4d4d4d" alt="dummy">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <h3><span>1260</span> PRODUCTS FOUND</h3>
+                        </div>
+                        <div class="col-lg-4">
+                            <h3>SORT BY: NAME</h3>
+                        </div>
+                        <div class="col-lg-4">
+                            <h3>VIEW <i class="ion-grid"></i> <i class="ion-navicon-round"></i></h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div>
+                                <img src="https://dummyimage.com/270x360/eaeaea/4d4d4d" alt="dummy" alt="Longline Hooded T-shirt">
+                                <div class="center-text">
+                                    <p>Mr.Bara Longline Hooded T-shirt</p>
+                                    <p>$19.00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div>
+                                <img src="https://dummyimage.com/270x360/eaeaea/4d4d4d" alt="dummy" alt="Longline Hooded T-shirt">
+                                <div class="center-text">
+                                    <p>Mr.Bara Longline Hooded T-shirt</p>
+                                    <p>$19.00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div>
+                                <img src="https://dummyimage.com/270x360/eaeaea/4d4d4d" alt="dummy" alt="Longline Hooded T-shirt">
+                                <div class="center-text">
+                                    <p>Mr.Bara Longline Hooded T-shirt</p>
+                                    <p>$19.00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div>
+                                <img src="https://dummyimage.com/270x360/eaeaea/4d4d4d" alt="dummy" alt="Longline Hooded T-shirt">
+                                <div class="center-text">
+                                    <p>Mr.Bara Longline Hooded T-shirt</p>
+                                    <p>$19.00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div>
+                                <img src="https://dummyimage.com/270x360/eaeaea/4d4d4d" alt="dummy" alt="Longline Hooded T-shirt">
+                                <div class="center-text">
+                                    <p>Mr.Bara Longline Hooded T-shirt</p>
+                                    <p>$19.00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div>
+                                <img src="https://dummyimage.com/270x360/eaeaea/4d4d4d" alt="dummy" alt="Longline Hooded T-shirt">
+                                <div class="center-text">
+                                    <p>Mr.Bara Longline Hooded T-shirt</p>
+                                    <p>$19.00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div>
+                                <img src="https://dummyimage.com/270x360/eaeaea/4d4d4d" alt="dummy" alt="Longline Hooded T-shirt">
+                                <div class="center-text">
+                                    <p>Mr.Bara Longline Hooded T-shirt</p>
+                                    <p>$19.00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div>
+                                <img src="https://dummyimage.com/270x360/eaeaea/4d4d4d" alt="dummy" alt="Longline Hooded T-shirt">
+                                <div class="center-text">
+                                    <p>Mr.Bara Longline Hooded T-shirt</p>
+                                    <p>$19.00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div>
+                                <img src="https://dummyimage.com/270x360/eaeaea/4d4d4d" alt="dummy" alt="Longline Hooded T-shirt">
+                                <div class="center-text">
+                                    <p>Mr.Bara Longline Hooded T-shirt</p>
+                                    <p>$19.00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
