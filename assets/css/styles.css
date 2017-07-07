@@ -40,6 +40,7 @@ h3 {
 #about p {
     margin-bottom: 70px;
     margin-top: 30px;
+    color: #666666;
 }
 
 .white-dash {
@@ -63,6 +64,10 @@ h3 {
     color: #999999;
 }
 
+.red-background .white-dash {
+    margin-top: 33px;
+}
+
 .center-text {
     text-align: center;
 }
@@ -79,6 +84,10 @@ h3 {
 span {
     color: #990000;
     font-weight: 400;
+}
+
+.sidebar span {
+    color: #999999;
 }
 
 #popular-products-row {
@@ -112,13 +121,13 @@ nav ul {
     color: white;
 }
 
-nav li {
+nav ul li {
     display: inline-block;
     box-sizing: border-box;
     margin-right: 52px;
 }
 
-nav li a {
+nav ul li a {
     font-family: 'Montserrat', sans-serif;
     color: white;
     font-size: 14px;
@@ -233,16 +242,16 @@ footer li a {
     color: black;
 }
 
-.filter h2 {
+.sidebar h2 {
     font-size: 24px;
     font-weight: 900;
 }
 
-.nav-logo {
+#categories-nav .nav-logo {
     top: 21px;
 }
 
-#login {
+#categories-nav #login {
     top: 35px;
 }
 
@@ -316,10 +325,10 @@ footer li a {
     opacity: 1;
 }
 
-
-.filter p {
+.sidebar p {
     color: #999999;
 }
+
 .subcategory {
     float: left;
 }
@@ -338,6 +347,19 @@ footer li a {
     flex-direction: column;
 }
 
-.filter li {
+.sidebar li {
     clear: both;
+}
+.margin-top-20 {
+    margin-top: 20px;
+}
+
+@media only screen and (min-width: 320px) {
+    nav, section, footer {
+        padding: 0 29px;
+    }
+    
+    header {
+        background-position: top;
+    }
 }
