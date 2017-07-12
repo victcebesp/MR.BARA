@@ -9,10 +9,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600" rel="stylesheet">
     <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
@@ -93,22 +93,24 @@
                 </div>
             </div>
         </section>
-        <section>
+        <section class="popular-products">
             <div class="container unpadding">
-                <div id="popular-products-row" class="row">
+                <div class="row">
                     <div class="col-lg-1 col-xs-2">
                         <div class="black-dash"></div>
                     </div>
                     <div class="col-lg-4 col-xs-10">
                         <h2>Popular <span>Products</span></h2>
                     </div>
-                    <div class="col-lg-offset-5 col-lg-2">
-                        <span><p>Browse All Products <i class="ion-ios-arrow-thin-right"></i></p></span>
+                    <div class="hidden-xs col-lg-offset-5 col-lg-2 upper-browse-all-products">
+                        <a>Browse All Products <i class="ion-ios-arrow-thin-right"></i></a>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-lg-4">
-                        <img src="assets/img/barbourInternationT-shirt.jpg" alt="Barbour Internation T-shirt">
+                <div class="row product-images">
+                    <div class="col-lg-4 col-xs-12 img-text-group">
+                        <div class="sale-tag">Sale</div>
+                        <div class="new-tag">New</div>
+                        <img class="img-responsive" src="assets/img/barbourInternationT-shirt.jpg" alt="Barbour Internation T-shirt">
                         <div class="center-text">
                             <i class="ion-star"></i>
                             <i class="ion-star"></i>
@@ -119,8 +121,8 @@
                             <p>$32.00</p>
                         </div>
                     </div>
-                    <div class="col-lg-4">
-                        <img src="assets/img/NikeDrawstringBackpack.jpg" alt="Nike Drawstring Backpack">
+                    <div class="col-lg-4 col-xs-12 img-text-group">
+                        <img class="img-responsive" src="assets/img/NikeDrawstringBackpack.jpg" alt="Nike Drawstring Backpack">
                         <div class="center-text">
                             <i class="ion-star"></i>
                             <i class="ion-star"></i>
@@ -131,8 +133,8 @@
                             <p>$15.00</p>
                         </div>
                     </div>
-                    <div class="col-lg-4">
-                        <img src="assets/img/LonglineHoodedT-shirt.jpg" alt="Longline Hooded T-shirt">
+                    <div class="col-lg-4 col-xs-12 img-text-group">
+                        <img class="img-responsive" src="assets/img/LonglineHoodedT-shirt.jpg" alt="Longline Hooded T-shirt">
                         <div class="center-text">
                             <i class="ion-star"></i>
                             <i class="ion-star"></i>
@@ -144,32 +146,73 @@
                         </div>
                     </div>
                 </div>
+                <div class="hidden-lg col-lg-offset-5 col-lg-2">
+                    <span><p class="text-center-aligment">Browse All Products <i class="ion-ios-arrow-thin-right"></i></p></span>
+                </div>
             </div>
         </section>
     </main>
     <section class="grey-background">
         <div class="container unpadding">
             <div class="row">
-                <div class="col-lg-1">
+                <div class="col-lg-1 col-xs-2">
                     <div class="black-dash"></div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-xs-10">
                     <h2>Our <span>Newsletter</span></h2>
                 </div>
                 <div class="col-lg-7">
-                    <img src="assets/img/form.png" alt="form subscribe button">
+                    <img class="img-responsive" src="assets/img/form.png" alt="form subscribe button">
                 </div>
             </div>
         </div>
     </section>
     <footer>
-        <img class="logo footer-logo" src="assets/img/logo.png" alt="MR.BARA logo">
-        <div class="container unpadding">
-            <div class="col-lg-4">
-                <p>@MR.BARA 2016</p>
-                <p>ALL RIGHTS RESERVED</p>
+        <img class="logo footer-logo hidden-xs" src="assets/img/logo.png" alt="MR.BARA logo">
+        <div class="hidden-xs container unpadding">
+            <div class="row visible-xs-block">
+                <div class="col-xs-12">
+                    <img src="assets/img/Logo.png" alt="MR.BARA logo">
+                </div>
             </div>
-            <div class="col-lg-4">
+            <div class="row">
+                <div class="col-lg-4 col-xs-12">
+                    <p>@MR.BARA 2016</p>
+                    <p>ALL RIGHTS RESERVED</p>
+                </div>
+                <div class="col-lg-4 col-xs-12">
+                    <ul>
+                        <li><a href="#">SITE MAP</a></li>
+                        <li><a href="#">TERM & CONDITIONS</a></li>
+                        <li><a href="#">PRIVACY POLICY</a></li>
+                        <li><a href="#">HELP</a></li>
+                        <li><a href="#">AFFILIATE</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-xs-12">
+                    <ul>
+                        <li><a href="#">OUR LOCATION</a></li>
+                        <li><a href="#">CAREER</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="hidden-xs social">
+            <ul>
+                <li><a href="">ENG <i class="ion-ios-arrow-down"></i></a></li>
+                <li>
+                    <div class="vertical-line"></div>
+                </li>
+                <li><a href="">USD <i class="ion-ios-arrow-down"></i></a></li>
+            </ul>
+        </div>
+        <div class="row visible-xs-block">
+            <div class="col-xs-12">
+                <img src="assets/img/Logo.png" alt="MR.BARA logo">
+            </div>
+            <div class="col-xs-12">
                 <ul>
                     <li><a href="#">SITE MAP</a></li>
                     <li><a href="#">TERM & CONDITIONS</a></li>
@@ -178,7 +221,7 @@
                     <li><a href="#">AFFILIATE</a></li>
                 </ul>
             </div>
-            <div class="col-lg-4">
+            <div class="col-xs-12">
                 <ul>
                     <li><a href="#">OUR LOCATION</a></li>
                     <li><a href="#">CAREER</a></li>
@@ -186,16 +229,19 @@
                     <li><a href="#">CONTACT</a></li>
                 </ul>
             </div>
-        </div>
-        <div id="social">
-            <ul>
-                <li><a href="">ENG <i class="ion-ios-arrow-down"></i></a></li>
-                <li><div class="vertical-line"></div></li>
-                <li><a href="">USD <i class="ion-ios-arrow-down"></i></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-            </ul>
+            <div class="col-xs-12">
+                <ul class="flex-horizontal">
+                    <li><a href="#">ENG <i class="ion-ios-arrow-down"></i></a></li>
+                    <li>
+                        <div class="vertical-line"></div>
+                    </li>
+                    <li><a href="#">USD <i class="ion-ios-arrow-down"></i></a></li>
+                </ul>
+            </div>
+            <div class="col-xs-12">
+                <p>@MR.BARA 2016</p>
+                <p>ALL RIGHTS RESERVED</p>
+            </div>
         </div>
     </footer>
 </body>
